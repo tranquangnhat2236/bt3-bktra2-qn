@@ -2,9 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Bố cục 3 box</title>
+<title>Bai kiem tra 2</title>
 
 <style>
+  .box {
+    width: 200px;
+    height: 200px;
+  }
   .box1 {
     width: 250px;
     height: 250px;
@@ -12,6 +16,11 @@
     border: 8px solid black;
     padding: 20px;
     margin: 20px;
+  }
+  .p {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
   }
   .box2 {
     width: 200px;
@@ -44,22 +53,55 @@
 <body>
 
   <div class="box1">
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.
     Eum, veniam esse animi adipisci reprehenderit sequi optio, 
     sed nostrum similique quaerat vitae quis aspernatur odio pariatur voluptatem.
     Modi dignissimos minima quae.
+    </p>
+   
   </div>
 
   <div class="box2">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
     Laboriosam doloribus quisquam aliquid vitae dolorum at,
     excepturi cupiditate obcaecati suscipit rem, non voluptate
     nobis quo delectus possimus est quaerat officiis voluptatibus!
+  
+    
   </div>
 
   <div class="box3">
     <img src="avatar.jpg" alt="">
   </div>
+  </style>
+</head>
 
-</body>
+  <body>
+    <!-- TODOs:
+1. Tạo 3 hộp (box) sử dụng thẻ div
+2. Thiết lập kích thước cho box cao 200px rộng 200px
+3. Thiết lập màu nền của mỗi box lần lượt là cadetblue, gold và indianred
+4. Thêm một đoạn văn sử dụng thẻ <p> bên trong đối tượng div đầu tiên và thêm nội dung dưới đây:
+   Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+   Eum, veniam esse animi adipisci reprehenderit sequi optio, 
+   sed nostrum similique quaerat 
+   vitae quis aspernatur odio pariatur voluptatem. Modi dignissimos minima quae.
+5. Thiết lập div thứ 1 có padding 50px xung quanh và đường viền là black 10px; 
+  margin trên và trái là 20px;
+6. Sửa kiểu của phần tử <p> để xóa toàn bộ lề (padding), font chữ 15px;
+  được kết quả như hình
+7. Đặt div thứ 2 có đường viền 10px ở trên cùng và dưới cùng; đường viền bên trái và bên phải là 20px (xem hình goal.png)
+8. Thêm một đoạn văn sử dụng thẻ <i> bên trong đối tượng div đầu tiên 
+  và thêm nội dung dưới đây:
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+  doloribus quisquam aliquid vitae dolorum at, excepturi cupiditate
+  obcaecati suscipit rem, non voluptate nobis quo delectus possimus est
+  quaerat officiis voluptatibus!
+Đoạn văn bản có màu chữ: white, dòng đầu tiên thụt vào 25px;
+9. Đặt div thứ 3 có đường viền 10px; Thêm hình nên (avatar.jpg) cho box 3 
+10. Đặt lề cho các div sao cho mỗi góc hộp chạm vào góc hộp kia. (Xem hình ảnh goal.png)
+Hint: sử dụng CSS inspector trong Chrome (dev tools) để xem kích thước của các box rồi thiết lập left cho các box để
+-->
+  </body>
 </html>
